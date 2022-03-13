@@ -1,0 +1,91 @@
+* {
+	margin: 0px;
+	padding: 0px;
+
+}
+
+body {
+	background-color: pink;
+	font-family: dois;
+}
+
+.box {
+	border: 2px solid blue;
+	width: 310px;
+	height: 450px;
+	position: absolute;
+	left: 40%;
+	top: 20%;
+	box-shadow:2px 4px 19px;
+	background-color: #000;
+}
+.subbox {
+	margin: 40px 7%;
+}
+
+.textview {
+	width: 100%;
+	padding: 10px;
+	margin: 5px -3%;
+	border-radius: 3px;
+	position: relative;
+	font-size: 18px;
+	border: none;
+	font-family: comic Neue,cursive;
+	font-weight: bolder;
+
+}
+input[type="button"]{
+	width: 55px;
+	height: 55px;
+	border-radius: 60px;
+	border: none;
+	box-shadow: 5px 0px 8px 1px blue;
+	cursor: pointer;
+	font-weight: bolder;
+	font-family: comic Neue,cursive;
+	background-color: white;
+	color: black;
+	outline: none;
+}
+input[type="button"]:hover{
+	background-color: #000;
+	color: #fff;
+}
+input[type="submit"]{
+	width: 55px;
+	height: 55px;
+	border-radius: 60px;
+	border: none;
+	box-shadow: 5px 0px 8px 1px blue;
+	cursor: pointer;
+	font-weight: bolder;
+	font-family: comic Neue,cursive;
+	background-color: red;
+	color: black;
+	outline: none;
+}
+input[type="submit"]:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+input[value="="]{
+	background-color: orange;
+	color: #000;
+}
+
+input[value="="]:hover{
+	background-color: #000;
+	color: #fff;
+}
+h2 {
+	position: sticky;
+	top: 19%;
+	left: 45%;
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: inter,sans-serif;
+	font -font-weight: bolder;
+}

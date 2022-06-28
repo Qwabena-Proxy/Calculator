@@ -6,7 +6,7 @@ function equal() {
 	var exp=document.form.textview.value;
 	if (exp) {
 		document.form.textview.value=eval(exp);
-		
+	
 	}
 }
 
